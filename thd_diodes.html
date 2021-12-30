@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КМО конденсаторы</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/pictures/transistor.png">
+</head>
+<body>
+    <div id="head">
+        <h1 class="h_1">КМО конденсаторы</h1>
+        <button class="result"><a href="final_table.html">Результат</a></button>
+    </div>
+    <table>
+        <tr>
+            <td>Добавить</td>
+            <td>Наименование и обозначение ЭРЭ</td>
+            <td>Внешний вид компонента</td>
+            <td>Эскиз варианта установки ЭРЭ</td>
+            <td>Характеристика варианта установки и способов фиксации компонентов</td>
+            <td>Примечания</td>
+        </tr>
+        <tr>
+            <td><button class="add" onclick="addElementToCookies('58DiodeName','58DiodePic','58DiodeAttPic','58DiodeComment1','58DiodeComment2')">+</button></td>
+            <td><p id="58DiodeName">VD1-VDn</p></td>
+            <td><img id="58DiodePic" src="/pictures/58Diode.png" alt=""></td>
+            <td><img id="58DiodeAttPic" src="/pictures/58DiodeAttachement.png" alt=""></td>
+            <td><p id="58DiodeComment1">Предварительная П-образная формовка выводов. Установка с зазором, фиксация подпайкой вывода.</p></td>
+            <td><p id="58DiodeComment2">-</p></td>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
