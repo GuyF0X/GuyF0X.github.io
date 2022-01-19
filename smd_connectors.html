@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КМП Коннекторы</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/pictures/transistor.png">
+</head>
+<body>
+    <div id="head">
+        <h1 class="h_1">КМП Коннекторы</h1>
+        <button class="result"><a href="final_table.html">Результат</a></button>
+    </div>
+    <table>
+        <tr>
+            <td>Добавить</td>
+            <td>Наименование и обозначение ЭРЭ</td>
+            <td>Внешний вид компонента</td>
+            <td>Эскиз варианта установки ЭРЭ</td>
+            <td>Характеристика варианта установки и способов фиксации компонентов</td>
+            <td>Примечания</td>
+        </tr>
+        <tr>
+            <td><button class="add" onclick="addElementToCookies('PCIName','PCIPic','PCIAttPic','PCIComment1','PCIComment2')">+</button></td>
+            <td id="PCIName">Mini PCI-e разъём</td>
+            <td><img id="PCIPic" src="/pictures/MiniPCI.png" alt=""></td>
+            <td><img id="PCIAttPic" src="/pictures/MiniPCI_Att.png" alt=""></td>
+            <td><p id="PCIComment1">Точная установка без зазора на место посадки с помощью камеры, фиксация паяльной пастой.</p></td>
+            <td><p id="PCIComment2">-</p></td>
+        </tr>
+        <tr>
+            <td><button class="add" onclick="addElementToCookies('smdConnectName','smdConnectPic','smdConnectAttPic','smdConnectComment1','smdConnectComment2')">+</button></td>
+            <td id="smdConnectName">Разъём</td>
+            <td><img id="smdConnectPic" src="/pictures/smdConnect.png" alt=""></td>
+            <td><img id="smdConnectAttPic" src="/pictures/quartz1_att.png" alt=""></td>
+            <td><p id="smdConnectComment1">Установка без зазора, фиксация при помощи оснастки.</p></td>
+            <td><p id="smdConnectComment2">-</p></td>
+        </tr>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
