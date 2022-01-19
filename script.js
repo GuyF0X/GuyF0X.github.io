@@ -97,7 +97,7 @@ function showTheTable(){
     }
     else{
         alert ("Ваша таблица пуста!");
-        window.location.replace("main.html");
+        window.location.replace("index.html");
     }
 }
 
