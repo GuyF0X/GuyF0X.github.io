@@ -1,9 +1,3 @@
-@media print {
-  .delete{
-    display:none;
-  }
-}
-
 body {
   background-color: white;
   padding: 0%;
@@ -115,8 +109,8 @@ table td {
 }
 
 img {
-  width: 85%;
-  height: auto;
+  width: 12rem;
+  height: 8rem;
 }
 a {
   transition-duration: 0.5s;
